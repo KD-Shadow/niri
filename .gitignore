@@ -1,0 +1,42 @@
+# Theme-changing files
+zsh/.config/zsh/zhistory
+alacritty/.config/alacritty/rice-colors.toml
+bspwm/.config/bspwm/.rice
+bspwm/.config/bspwm/config/.term
+bspwm/.config/bspwm/config/dunstrc
+bspwm/.config/bspwm/config/picom.conf
+bspwm/.config/bspwm/config/rofi-themes/shared.rasi
+bspwm/.config/bspwm/config/st/colorscheme
+bspwm/.config/bspwm/config/xsettingsd
+
+# Runtime/generated
+mpd/.config/mpd/mpd.db
+mpd/.config/mpd/mpdstate
+bspwm/.config/bspwm/bin/Bspwm-ScratchPad
+bspwm/.config/bspwm/bin/ScreenLocker
+bspwm/.config/bspwm/bin/Term
+
+# Bar configs change per rice
+bspwm/.config/bspwm/config/modules/07-bar.sh
+
+
+
+
+# Icon caches
+icons/.icons/*/icon-theme.cache
+icons/.icons/*/.icon-theme.cache
+
+# Syncthing (entire runtime dir)
+syncthing/.local/state/syncthing/
+
+# Nvim lockfile (optional, some people track this)
+nvim/.config/nvim/lazy-lock.json
+
+# Superfile themes (runtime generated)
+superfile/.config/superfile/theme/
+
+# Other runtime files
+zathura/.config/zathura/rice-colors
+rmpc/.config/rmpc/themes/custom.ron
+zed/.config/zed/settings_backup.json
+
